@@ -6,4 +6,5 @@ Warning there are going to be errors but just let it run
  
 *you can have multipul running at a time
  
+ if errors go over 20,000 restart the process
  
