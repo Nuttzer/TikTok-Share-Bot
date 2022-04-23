@@ -40,7 +40,7 @@ class tiktok:
         self.lock.release()
 
     def update_title(self):
-        ctypes.windll.kernel32.SetConsoleTitleW(f"TikTok Share Botter | Sent Shares: {self.shared} | Errors: {self.errors} | https://github.com/useragents")
+        ctypes.windll.kernel32.SetConsoleTitleW(f"TikTok Share Botter | Sent Shares: {self.shared} | Errors: {self.errors} | https://github.com/Nuttzer/TikTok-Share-Bot")
 
     def send_share(self, video_id):
         try:
@@ -77,7 +77,7 @@ class tiktok:
     def main(self):
         os.system(clear)
         if clear == "cls":
-            ctypes.windll.kernel32.SetConsoleTitleW(f"TikTok Share Botter | https://github.com/Nuttzer/TikTok-Share-Bot ")
+            ctypes.windll.kernel32.SetConsoleTitleW(f"TikTok Share Bot | https://github.com/Nuttzer/TikTok-Share-Bot ")
         print(Fore.GREEN + ascii_text)
         tiktok_url = str(input(f"       {Fore.WHITE}[{Fore.LIGHTMAGENTA_EX}Console{Fore.WHITE}] TikTok URL: "))
         threads = int(input(f"       {Fore.WHITE}[{Fore.LIGHTMAGENTA_EX}Console{Fore.WHITE}] Shares Per Sec: "))
