@@ -6,6 +6,10 @@ except ImportError:
 
 init(convert=True)
 
+print( Fore.RED + "warning there are going to be errors but just let it run ")
+
+time.sleep(1.5)
+
 ascii_text = """
 
 ██╗░░░██╗██╗██████╗░███████╗██████╗░
@@ -21,6 +25,7 @@ ascii_text = """
 ██║░╚███║╚██████╔╝░░░██║░░░░░░██║░░░███████╗███████╗██║░░██║
 ╚═╝░░╚══╝░╚═════╝░░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚══════╝╚═╝░░╚═╝
   """
+time.sleep(1.5)
 
 if platform.system() == "Windows":
     clear = "cls"
