@@ -13,7 +13,13 @@ ascii_text = """
 ╚██╗░██╔╝██║██████╔╝█████╗░░██████╔╝
 ░╚████╔╝░██║██╔═══╝░██╔══╝░░██╔══██╗
 ░░╚██╔╝░░██║██║░░░░░███████╗██║░░██║
-░░░╚═╝░░░╚═╝╚═╝░░░░░╚══════╝╚═╝░░╚═╝
+░░░╚═╝░░░╚═╝╚═╝░░░░░╚══════╝╚═╝░░╚═╝ 
+███╗░░██╗██╗░░░██╗████████╗████████╗███████╗███████╗██████╗░
+████╗░██║██║░░░██║╚══██╔══╝╚══██╔══╝╚════██║██╔════╝██╔══██╗
+██╔██╗██║██║░░░██║░░░██║░░░░░░██║░░░░░███╔═╝█████╗░░██████╔╝
+██║╚████║██║░░░██║░░░██║░░░░░░██║░░░██╔══╝░░██╔══╝░░██╔══██╗
+██║░╚███║╚██████╔╝░░░██║░░░░░░██║░░░███████╗███████╗██║░░██║
+╚═╝░░╚══╝░╚═════╝░░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚══════╝╚═╝░░╚═╝
   """
 
 if platform.system() == "Windows":
@@ -71,7 +77,7 @@ class tiktok:
     def main(self):
         os.system(clear)
         if clear == "cls":
-            ctypes.windll.kernel32.SetConsoleTitleW(f"TikTok Share Botter | https://github.com/useragents")
+            ctypes.windll.kernel32.SetConsoleTitleW(f"TikTok Share Botter | https://github.com/Nuttzer/TikTok-Share-Bot ")
         print(Fore.GREEN + ascii_text)
         tiktok_url = str(input(f"       {Fore.WHITE}[{Fore.LIGHTMAGENTA_EX}Console{Fore.WHITE}] TikTok URL: "))
         threads = int(input(f"       {Fore.WHITE}[{Fore.LIGHTMAGENTA_EX}Console{Fore.WHITE}] Shares Per Sec: "))
