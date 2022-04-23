@@ -8,7 +8,7 @@ init(convert=True)
 
 print( Fore.RED + "warning there are going to be errors but just let it run ")
 
-time.sleep(1.5)
+time.sleep(3.0)
 
 ascii_text = """
 
