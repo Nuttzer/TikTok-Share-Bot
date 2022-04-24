@@ -10,6 +10,10 @@ print( Fore.RED + "warning there are going to be errors but just let it run ")
 
 time.sleep(3.0)
 
+print( Fore.RED + "recomended 100 shared per second so that there is less errors")
+
+time.sleep(3.0)
+
 ascii_text = """
 
 ██╗░░░██╗██╗██████╗░███████╗██████╗░
